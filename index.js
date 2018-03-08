@@ -19,9 +19,11 @@ function dec(n) {
 function makeInt(n) {
   
 }
+function preserveDecimal(n) {
+  
+}
 
-
-  7) makeInt(n) parses n as an integer and returns the parsed integer:
+/*  7) makeInt(n) parses n as an integer and returns the parsed integer:
      ReferenceError: makeInt is not defined
       at Context.<anonymous> (test/index-test.js:34:5)
 
@@ -40,3 +42,4 @@ function makeInt(n) {
   11) preserveDecimal(n) returns NaN as appropriate:
      ReferenceError: preserveDecimal is not defined
       at Context.<anonymous> (test/index-test.js:52:5)
+      */
